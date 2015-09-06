@@ -1,0 +1,167 @@
+* {
+    margin:0;
+    padding:0;
+    color:#5C5C3D;
+}
+body{
+    background-color:#F5F5F0;
+    color:#5C5C3D;
+    font-family: sans-serif;
+    margin: 0;
+}
+header{
+    margin:0 auto;
+    width:50%;
+    padding-top: 50px;
+}
+h1 {
+    display:inline-block;
+    float:left;
+    color: #252518;
+    margin-top: 15px;
+
+}
+.headshot{
+    
+    width: 225px;
+    height: 225px;
+    border-width: 2px;
+    border-color: #000;
+    float: right;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    display:flex;
+    overflow:hidden
+}
+ul{
+    clear: left;
+    float: left;
+    margin-top: 15px;
+}
+ul li {
+    margin-left:0;
+    display:inline;
+    font-size:1.25em;
+    margin-right: 20px;
+    float:left;
+}
+a{
+    text-decoration: none;
+    list-style-type:none;
+}
+a:hover{
+    color:#000;
+}
+section {
+    clear: both;
+    margin:0 auto;    
+}
+h5 {
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+p {
+    margin-bottom: 50px;
+}
+hr{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.subgroups{
+    width: 50%;
+}
+.location{
+    float: right;
+}
+.job-title{
+    color: #252518;
+}
+.contact{
+    margin-bottom: 750px;
+}
+{
+    clear:both;
+}
+footer{
+    
+    margin:100px auto;
+    width:50%;
+}
+
+
+/*__________________________________________________________*/
+@media only screen and (max-width: 1400px) {    
+   
+    header{
+        margin:0 auto;
+        width:75%;
+        padding-top: 10px;
+    }
+    .subgroups{
+        width: 75%;
+    }
+
+}
+/*__________________________________________________________*/
+@media only screen and (max-width: 800px) {    
+   
+    header{
+        display:block;
+        margin:0 auto;
+        width:80%;
+        padding-top: 10px;
+    }
+    .subgroups{
+        width: 80%;
+    }
+    .headshot{
+        clear:left;    
+        display: inline;
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        margin-left: -12px;
+        display: flex;
+        overflow: hidden
+    }
+    footer{
+        width:80%;
+    }
+
+}
+/*__________________________________________________________*/
+@media only screen and (max-width: 480px) {    
+   
+    header{
+        display:block;
+        margin:0 auto;
+        width:80%;
+        padding-top: 10px;
+    }
+    .subgroups{
+        width: 80%;
+    }
+    ul li:first-child{
+        display:none;
+    }
+    
+    .headshot{
+        clear:left;    
+        display: inline;
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        margin-left: -12px;
+        display: flex;
+        overflow: hidden
+    }
+    footer{
+        width:80%;
+    }
+
+
+}
